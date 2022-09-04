@@ -1,0 +1,265 @@
+
+@media only screen and (max-width:1024px){
+
+
+    .logo{
+        width: 100px;
+    }
+
+    .list-item{
+       
+        padding: 0px 13px;
+       
+    }
+    
+    .nav-button{
+        padding: 10px 20px ;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    
+    }
+    .package-section .left-section h1{
+        font-size: 2.3rem;
+    }
+    .package-section .left-section p{
+        font-size: 0.8rem;
+    }
+    .package-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .package-section .right-section{
+        width: 350px;
+    }
+    /* Quality Section */
+    .quality-section .right-section h1{
+        font-size: 2.3rem;
+    }
+    .quality-section .right-section p{
+        font-size: 0.8rem;
+    }
+    .quality-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .quality-section .left-section{
+        width: 350px;
+    }
+    /* Technical Section */
+
+    .technical-section .left-section h1{
+        font-size: 2.3rem;
+    }
+    .technical-section .left-section p{
+        font-size: 0.8rem;
+    }
+    .technical-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .technical-section .right-section{
+        width: 350px;
+    }
+   
+    /* Services Section */
+
+    .services-section .left-section h1{
+        font-size: 2rem;
+       
+    }
+   
+    .services-section .right-section p{
+        font-size: 15px;
+        width:  90%;
+        line-height: 26px;
+        text-align:justify;
+    }
+
+    .card-section .card p{
+       
+        width: 100%;
+    }
+
+    /* Pricing Section */
+
+    .Pricing-card{
+        width: 30%;
+    }
+    
+    .register-section .left-section h1{
+        
+        font-size: 2rem;
+        margin-bottom: 15px;
+      }
+      .register-section .left-section p{
+       
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 23px;
+      }
+      .footer-section{
+        gap: 20px;
+        justify-content: space-evenly;
+      }
+      .footer{
+        width: 200px;
+       }
+}
+
+@media only screen and (max-width:700px){
+
+    .nav-bar{
+       
+        justify-content: space-between;
+    }
+    .ham{
+        display: inline-block;
+    }
+    .logo{
+        width: 100px;
+    }
+
+    .list{
+       display: none;
+    }
+    
+    .nav-button{
+       display:none
+      
+    
+    }
+    .package-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .package-section .left-section{
+        width: 90%;
+    }
+    .package-section .left-section h1{
+        width: 100%;
+    }
+    .package-section .left-section p {
+        width: 100%;
+    }
+    .package-section .right-section{
+        width: 90%;
+    }
+
+    /* Quality Section */
+
+    .quality-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .quality-section .right-section{
+        width: 90%;
+    }
+    .quality-section .right-section h1{
+        width: 100%;
+    }
+    .quality-section .right-section p {
+        width: 100%;
+    }
+    .quality-section .left-section{
+        width: 90%;
+    }
+
+    /* Technical Section   */
+
+    .technical-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .technical-section .left-section{
+        width: 90%;
+    }
+    .technical-section .left-section h1{
+        width: 100%;
+    }
+    .technical-section .left-section p {
+        width: 100%;
+    }
+    .technical-section .right-section{
+        width: 90%;
+    }
+
+    /* Services Section */
+    .top{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        gap: 30px;
+        
+    }
+    .services-section .left-section{
+        width: 100%;
+    }
+    
+    .services-section .right-section{
+        width: 100%;
+        
+    }
+    .services-section .right-section p{
+        width: 100%;
+        text-align: center;
+    }
+    .card-section .card{
+        width: 45%;
+    }
+
+
+    /* Pricing Section */
+    .Pricing-card{
+        width: 350px;
+    }
+
+    /* Feedback Section */
+    .Cutomer-Feedback{
+        margin: 10px 1%;
+    }
+    .Cutomer-Feedback h3{
+        width: 90%;
+        font-size: 2.5rem;
+       
+    }
+    .Cutomer-Feedback p{
+        margin: 20px 0px;
+        text-align: center;
+        width: 95%;
+    }
+    .feedback-card{
+        width: 50%;
+    }
+
+    /* Register */
+
+    .register-section{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .register-section .left-section{
+        width: 90%;
+    }
+    .register-section .right-section{
+        width: 90%;
+    }
+    .register-section .right-section button{
+         position: static;
+         float: unset;
+
+      }
+      .footer{
+        width: 40%;
+        
+       }
+       .footer-list{
+        text-align: center;
+       }
+}

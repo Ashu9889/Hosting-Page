@@ -3,194 +3,223 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow-x: hidden;
+    
 }
 
 
 .nav-bar{
     display: flex;
-    padding: 36px 100px 0px 100px ;
     flex-wrap: wrap;
-    /* justify-content:space-around; */
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-inline: 6%;
+
 }
 
 .list{
     list-style-type: none;
-    margin: 18px 15px 0px 483px;
+    margin-inline: auto;
+   
+    
 }
 .list .list-item:first-child{
     color: black;
 }
 .list-item{
     float: left;
-    margin: 0px 20px;
+    padding: 0px 20px;
     font-family: sans-serif;
     color: grey;
+    
 }
 
 .nav-button{
     padding: 15px 40px ;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 1rem;
     color: DodgerBlue;
     border:2px solid DodgerBlue;
     background-color:white;
 }
+.ham{
+    width: 40px;
+    display: none;
+}
 
 .package-section{
     display: flex;
-    margin: 93px 0px 93px 100px;
-    /* padding: 36px 100px 0px 100px ; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-inline: 2%;
+    margin-top: 5%;
 }
 .package-section .left-section{
-    margin-right: 71px;
+    width: 45%;
 }
 .package-section .left-section h1{
-    font-size: 50px;
+    font-size: 3.5rem;
     font-family: sans-serif;
+    width: 90%;
 }
 .package-section .left-section p{
-    font-size: 15px;
-    width: 28vw;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    width: 70%;
+    margin-block: 20px;
     line-height: 26px;
 }
 .package-section .btn-package{
     padding: 15px 25px 15px 25px ;
     border-radius: 5px;
-    
     background-color: dodgerblue;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 1rem;
 
 }
+.package-section .right-section{
+    width: 500px;
+}
 .package-section .right-section img{
-    width: 51vw;
-    height: 50vh;
-    margin-left: -45px;
+   width: 100%;
+   height: 100%;
 }
    
 
 
  .quality-section{
     display: flex;
-    /* justify-content: space-around; */
-    margin: 15% 37px 200px 73px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-inline: 2%;
+    margin-top: 5%;
 }
+.quality-section .left-section{
+    width: 500px;
+}
+
 .quality-section .left-section img{
-    width: 50vw;
-    height: 64vh;
-    /* margin-left: 120px;  */
+    width: 100%;
+   height: 100%;
 }
 .quality-section .right-section{
-    padding: 16px 0px 0px 50px;
+    width: 45%;
 }
 
 .quality-section .right-section h1{
-    font-size: 50px;
+    font-size: 3.5rem;
     font-family: sans-serif;
+    width: 90%;
 }
 .quality-section .right-section p{
-    font-size: 15px;
-    width: 28vw;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    width: 70%;
+    margin-block: 20px;
     line-height: 26px;
 
 }
 .quality-section .btn-package{
     padding: 15px 25px 15px 25px ;
     border-radius: 5px;
-    
     background-color: dodgerblue;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 1rem;
+
 
 }
 /* .........................Technical section.............................. */
 
 .technical-section{
     display: flex;
-    margin: 93px 0px 93px 100px;
-   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-inline: 2%;
+    margin-top: 5%;
+}
+.technical-section .left-section{
+    width: 45%;
 }
 
 .technical-section .left-section h1{
-    font-size: 50px;
+   font-size: 3.5rem;
     font-family: sans-serif;
+    /* width: 90%; */
 }
+
 .technical-section .left-section p{
-    font-size: 15px;
-    width: 28vw;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    width: 70%;
+    margin-block: 20px;
     line-height: 26px;
+
 }
 .technical-section .btn-package{
     padding: 15px 25px 15px 25px ;
     border-radius: 5px;
-    
     background-color: dodgerblue;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 1rem;
 
 }
+.technical-section .right-section{
+    width: 500px;
+}
 .technical-section .right-section img{
-    width: 47vw;
-    height: 70vh;
-    margin-top: -72px;
+    width: 100%;
+    height: 100%;
    
 }
 
 
 .services-section{
-    /* display: flex; */
-    margin: 93px 92px 93px 100px;
-    
-   
+   margin-block: 5%;
+}
+.top{
+    margin: 65px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-inline: 2%;
+    margin-top: 5%;
 }
 .services-section .left-section{
-    display: inline-block;
-    width: 40%;
+    width: 45%;
 }
 .services-section .left-section h1{
-    font-size: 50px;
+    font-size: 3rem;
     font-family: sans-serif;
-    /* display: inline-block */
+    
      
    
 }
 .services-section .right-section{
-    display: inline-block;
-    float: right;
     width: 50%;
     
 }
 .services-section .right-section p{
     font-size: 15px;
-    width:  43vw;
+    width:  80%;
     line-height: 26px;
     text-align:justify;
 }
-.top{
-    margin: 65px 0px ;
-}
+
 
 .card-section{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-inline: 2%;
+    margin-top: 5%;
 }
 
 .card-section .card{
-    flex-grow: 1;
-    width: 15vw;
-    height: 42vh;
-    margin: 0px 79px;
-    
+    width: 25%;  
 }
 
 .card-section .card img{
@@ -204,6 +233,7 @@
     font-size: 12px;
     line-height: 20px;
     color: grey;
+    width: 60%;
 }
 
 /* ...........................Pricing section...................................  */
@@ -212,7 +242,7 @@
 .pricing{
     background-color: dodgerblue;
     
-    padding: 93px 92px 93px 100px;
+    padding-block: 93px;
     
 }
 .pricing h2{
@@ -224,6 +254,7 @@
 
 .Pricing-cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     /* align-items: center; */
 }
@@ -232,7 +263,7 @@
     background-color:white;
     padding: 20px;
     border-radius: 5px;
-    width: 24%;
+    width: 300px;
     margin: 40px 8px;
 
 }
@@ -263,9 +294,9 @@
 
 .price-lists{
     list-style-type: none;
-    line-height: 3vw;
+    line-height: 30px;
     margin-bottom: 50px;
-    /* margin-left: 10px; */
+    
 }
 
 .price-list{
@@ -314,17 +345,24 @@ i{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 160px 254px;
+    padding-block: 93px;
+    margin: 10px  10%;
     
+}
+.Cutomer-Feedback h3{
+    width: 70%;
+    text-align: center;
+    font-size: 3rem;
 }
 .Cutomer-Feedback p{
     margin: 20px 0px;
     text-align: center;
+    width: 70%;
 }
 .feedback-card{
     flex-grow: 1;
     width: 40%;
-    /* border: 1px ; */
+    
     border-radius: 10px;
     box-shadow: 1px 1px 11px 0px lightgrey;
     margin: 20px 20px ;
@@ -335,6 +373,7 @@ i{
 .feedback-card p{
     padding:  20px 0px;
     text-align: left;
+    width: 100%;
 }
 .chip {
     display: inline-block;
@@ -357,19 +396,19 @@ i{
 
   .register-section{
     display: flex;
+    flex-wrap: wrap;
     background-color: dodgerblue;
-
+    justify-content: center;
+    padding-block: 10%;
   }
   .register-section .left-section{
-    width: 50%;
-    margin: 99px 30px;
-    padding: 0px 64px;
+    width: 40%;
     
   }
   
   .register-section .left-section h1{
     color: white;
-    font-size: 50px;
+    font-size:3rem;
     margin-bottom: 20px;
   }
   .register-section .left-section p{
@@ -387,7 +426,7 @@ i{
     top: 39%;
     right: 25%;
     position: relative;
-    padding: 10px 40px;
+    padding: 15px 40px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
@@ -397,15 +436,17 @@ i{
   .footer-section{
     display: flex;
     flex-wrap: wrap;
-    margin: 150px 0px 63px 113px;
-    justify-content: center;
+    margin-block: 5%;
+    justify-content: space-evenly;
+    
   
   }
 
 .footer{
-  flex-grow: 1;
-  /* width: 20%; */
-  /* margin: 0px 20px; */
+ width: 15%;
+}
+.footer-list{
+    list-style-type: none;
 }
 .footer img{
     width: 100px;
@@ -421,4 +462,270 @@ i{
 }
 .fa{
     color: dodgerblue;
+}
+
+
+@media only screen and (max-width:1024px){
+
+
+    .logo{
+        width: 100px;
+    }
+
+    .list-item{
+       
+        padding: 0px 13px;
+       
+    }
+    
+    .nav-button{
+        padding: 10px 20px ;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    
+    }
+    .package-section .left-section h1{
+        font-size: 2.3rem;
+    }
+    .package-section .left-section p{
+        font-size: 0.8rem;
+    }
+    .package-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .package-section .right-section{
+        width: 350px;
+    }
+    /* Quality Section */
+    .quality-section .right-section h1{
+        font-size: 2.3rem;
+    }
+    .quality-section .right-section p{
+        font-size: 0.8rem;
+    }
+    .quality-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .quality-section .left-section{
+        width: 350px;
+    }
+    /* Technical Section */
+
+    .technical-section .left-section h1{
+        font-size: 2.3rem;
+    }
+    .technical-section .left-section p{
+        font-size: 0.8rem;
+    }
+    .technical-section .btn-package{
+        padding: 10px 20px 10px 20px ; 
+        font-size: .7rem;
+    
+    }
+    .technical-section .right-section{
+        width: 350px;
+    }
+   
+    /* Services Section */
+
+    .services-section .left-section h1{
+        font-size: 2rem;
+       
+    }
+   
+    .services-section .right-section p{
+        font-size: 15px;
+        width:  90%;
+        line-height: 26px;
+        text-align:justify;
+    }
+
+    .card-section .card p{
+       
+        width: 100%;
+    }
+
+    /* Pricing Section */
+
+    .Pricing-card{
+        width: 30%;
+    }
+    
+    .register-section .left-section h1{
+        
+        font-size: 2rem;
+        margin-bottom: 15px;
+      }
+      .register-section .left-section p{
+       
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 23px;
+      }
+      .footer-section{
+        gap: 20px;
+        justify-content: space-evenly;
+      }
+      .footer{
+        width: 200px;
+       }
+}
+
+@media only screen and (max-width:700px){
+
+    .nav-bar{
+       
+        justify-content: space-between;
+    }
+    .ham{
+        display: inline-block;
+    }
+    .logo{
+        width: 100px;
+    }
+
+    .list{
+       display: none;
+    }
+    
+    .nav-button{
+       display:none
+      
+    
+    }
+    .package-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .package-section .left-section{
+        width: 90%;
+    }
+    .package-section .left-section h1{
+        width: 100%;
+    }
+    .package-section .left-section p {
+        width: 100%;
+    }
+    .package-section .right-section{
+        width: 90%;
+    }
+
+    /* Quality Section */
+
+    .quality-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .quality-section .right-section{
+        width: 90%;
+    }
+    .quality-section .right-section h1{
+        width: 100%;
+    }
+    .quality-section .right-section p {
+        width: 100%;
+    }
+    .quality-section .left-section{
+        width: 90%;
+    }
+
+    /* Technical Section   */
+
+    .technical-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .technical-section .left-section{
+        width: 90%;
+    }
+    .technical-section .left-section h1{
+        width: 100%;
+    }
+    .technical-section .left-section p {
+        width: 100%;
+    }
+    .technical-section .right-section{
+        width: 90%;
+    }
+
+    /* Services Section */
+    .top{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        gap: 30px;
+        
+    }
+    .services-section .left-section{
+        width: 100%;
+    }
+    
+    .services-section .right-section{
+        width: 100%;
+        
+    }
+    .services-section .right-section p{
+        width: 100%;
+        text-align: center;
+    }
+    .card-section .card{
+        width: 45%;
+    }
+
+
+    /* Pricing Section */
+    .Pricing-card{
+        width: 350px;
+    }
+
+    /* Feedback Section */
+    .Cutomer-Feedback{
+        margin: 10px 1%;
+    }
+    .Cutomer-Feedback h3{
+        width: 90%;
+        font-size: 2.5rem;
+       
+    }
+    .Cutomer-Feedback p{
+        margin: 20px 0px;
+        text-align: center;
+        width: 95%;
+    }
+    .feedback-card{
+        width: 50%;
+    }
+
+    /* Register */
+
+    .register-section{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .register-section .left-section{
+        width: 90%;
+    }
+    .register-section .right-section{
+        width: 90%;
+    }
+    .register-section .right-section button{
+         position: static;
+         float: unset;
+
+      }
+      .footer{
+        width: 40%;
+        
+       }
+       .footer-list{
+        text-align: center;
+       }
 }
